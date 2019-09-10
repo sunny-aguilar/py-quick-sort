@@ -9,6 +9,6 @@ def quick_sort(array):
         return array
     else:
         pivot = array[0]
-        less = []
+        less = [i for i in array[1:] if i <= pivot]
 
 main()
