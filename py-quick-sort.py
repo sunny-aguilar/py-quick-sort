@@ -8,6 +8,6 @@ def quick_sort(array):
     if len(array) < 2:
         return array
     else:
-        print()
+        pivot = array[0]
 
 main()
