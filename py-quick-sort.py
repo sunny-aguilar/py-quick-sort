@@ -7,6 +7,7 @@ def main():
 def quick_sort(array):
     if len(array) < 2:
         print()
-
+    else:
+        print()
 
 main()
